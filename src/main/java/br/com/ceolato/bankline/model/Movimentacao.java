@@ -1,13 +1,24 @@
 package br.com.ceolato.bankline.model;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
+@Entity
+@Table(name = "tb_movimentacao")
 public class Movimentacao {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @Column(name = "data_hora")
     private LocalDateTime dataHora;
+
     private String descricao;
     private Double valor;
+
+    @Enumerated(EnumType.STRING)
+    private MovimentacaoTipo tipo;
 
     public Integer getId() {
         return id;
