@@ -3,7 +3,7 @@ package br.com.ceolato.bankline.controller;
 import br.com.ceolato.bankline.dto.NovoCorrentista;
 import br.com.ceolato.bankline.model.Correntista;
 import br.com.ceolato.bankline.repository.CorrentistaRepository;
-import br.com.ceolato.bankline.model.service.CorrentistaService;
+import br.com.ceolato.bankline.service.CorrentistaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

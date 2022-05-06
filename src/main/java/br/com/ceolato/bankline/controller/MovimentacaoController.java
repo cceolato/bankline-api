@@ -4,7 +4,7 @@ import br.com.ceolato.bankline.dto.NovaMovimentacao;
 import br.com.ceolato.bankline.dto.NovoCorrentista;
 import br.com.ceolato.bankline.model.Correntista;
 import br.com.ceolato.bankline.model.Movimentacao;
-import br.com.ceolato.bankline.model.service.CorrentistaService;
+import br.com.ceolato.bankline.service.CorrentistaService;
 import br.com.ceolato.bankline.repository.CorrentistaRepository;
 import br.com.ceolato.bankline.repository.MovimentacaoRepository;
 import br.com.ceolato.bankline.service.MovimentacaoService;
